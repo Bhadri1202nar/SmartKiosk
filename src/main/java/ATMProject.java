@@ -113,13 +113,8 @@ public class ATMProject extends Application {
         TextField amountTextField = new TextField();
         grid.add(amountTextField, 1, 0);
 
-        withdrawButton = new Button("Withdraw");
-        grid.add(withdrawButton, 0, 1);
-
-        Button cancelButton = new Button("Cancel");
-        grid.add(cancelButton, 1, 1);
-        Button loginButton = new Button();
-        grid.add(loginButton, 1, 2);
+        
+        
 
 
 // Event handlers for the buttons
